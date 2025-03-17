@@ -34,7 +34,7 @@
     "repositories": {
         "chatX": {
             "type": "path",
-            "url": "/home/ashok/chatXpackage"
+            "url": "https://github.com/sujaldangi/chatxPackage.git"
         }
     }
 }

@@ -1,0 +1,40 @@
+{
+    "name": "sujal/chatx",
+    "description": "simple messaging application",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sujal\\Chatx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sujal dangi"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^11.0",
+        "laravel/passport": "^11.0",
+        "kreait/laravel-firebase": "^5.0",
+        "pusher/pusher-php-server": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sujal\\Chatx\\Providers\\ChatPackageServiceProvider"
+            ],
+            "aliases": {
+                "ChatX": "Sujal\\ChatX\\Facades\\ChatX"
+            }
+        }
+    },
+    "repositories": {
+        "chatX": {
+            "type": "path",
+            "url": "/home/ashok/chatXpackage"
+        }
+    }
+}

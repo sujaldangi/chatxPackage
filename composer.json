@@ -30,7 +30,7 @@
     },
     "repositories": {
         "chatX": {
-            "type": "path",
+            "type": "vcs",
             "url": "https://github.com/sujaldangi/chatxPackage.git"
         }
     }

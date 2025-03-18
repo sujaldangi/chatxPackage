@@ -39,17 +39,17 @@ class ChatPackageServiceProvider extends ServiceProvider
 
     public function register()
     {
-        // Register any bindings or services
-        if (!class_exists(\Laravel\Passport\Passport::class)) {
-            throw new \Exception('Please install Laravel Passport: composer require laravel/passport');
-        }
+        // // Register any bindings or services
+        // if (!class_exists(\Laravel\Passport\Passport::class)) {
+        //     throw new \Exception('Please install Laravel Passport: composer require laravel/passport');
+        // }
 
         
 
-        // Check if Pusher package is installed
-        if (!class_exists(\Pusher\Pusher::class)) {
-            throw new \Exception('Please install Pusher package: composer require pusher/pusher-php-server');
-        }
+        // // Check if Pusher package is installed
+        // if (!class_exists(\Pusher\Pusher::class)) {
+        //     throw new \Exception('Please install Pusher package: composer require pusher/pusher-php-server');
+        // }
         
     }
 }

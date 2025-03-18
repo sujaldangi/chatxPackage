@@ -44,10 +44,7 @@ class ChatPackageServiceProvider extends ServiceProvider
             throw new \Exception('Please install Laravel Passport: composer require laravel/passport');
         }
 
-        // Check if Firebase package is installed
-        if (!class_exists(\Kreait\Laravel\Firebase\FirebaseServiceProvider::class)) {
-            throw new \Exception('Please install Firebase package: composer require kreait/laravel-firebase');
-        }
+        
 
         // Check if Pusher package is installed
         if (!class_exists(\Pusher\Pusher::class)) {
